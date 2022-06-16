@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--==================== ÍCONE ====================-->
+        <link rel="icon" href="assets/img/logos/giphy.gif">
+
+        <!--==================== UNICONS ====================-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+        <!--==================== SWIPER CSS ====================-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--==================== CSS ====================-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>CLIMATIC</title>
+    </head>
+    <body>
+        <!--==================== CABEÇALHO ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">CLIMATIC</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list grid">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">
+                                <i class="uil uil-estate nav__icon"></i> Início
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">
+                                <i class="uil uil-user nav__icon"></i> Sobre
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#utilities" class="nav__link">
+                                <i class="uil uil-scenery nav__icon"></i> Notícias
+                            </a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="contato.html" class="nav__link">
+                                <i class="uil uil-message nav__icon"></i> Contato
+                            </a>
+                        </li>
+                        <div class="nav__item">
+                            <a href="login.html" class="nav__link">
+                                <i class="uil uil-user-square nav__icon"></i> Perfil
+                            </a>
+                        </div>
+
+                    </ul>
+                    <i class="uil uil-times nav__close" id="nav-close"></i>
+                </div>
+
+                <div class="nav__btns">
+
+                    <!-- Botão do Modo escuro -->
+                    <i class="uil uil-moon change-theme" id="theme-button"></i>
+
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="uil uil-apps"></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CLASSE MAIN ====================-->
+        <main class="main">
+            <!--==================== INÍCIO ====================-->
+            <section class="home section" id="home">
+                <div class="home__container container grid">
+                    <div class="home__content">
+                        <div class="home__social">
+                        </div>
+
+                        <div class="home__img">
+                            <img src="assets/img/logos/giphy.gif">
+                        </div>
+
+                        <div class="home__data">
+                            <h1 class="home__title">CLIMATIC</h1>
+                            <h3 class="home__subtitle">Notícias sobre as Mudanças Climáticas</h3>
+                        </div>
+                    </div>
+
+                </div>
+            </section>
+
+            <!--==================== SOBRE ====================-->
+            <section class="about section" id="about">
+                <div class="about__container container">
+
+                    <div class="about__data">
+                        <p class="about__description">
+                            "A cada dia. A cada minuto. A cada segundo, nosso <strong>planeta</strong><br>está mudando sua <strong>temperatura</strong> para maior."<br><br>
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== UTILIDADES ====================-->
+            <section class="services section" id="utilities">
+                <h2 class="section__title">Cards Informativos</h2>
+                <span class="section__subtitle">Tudo que você precisa saber</span>
+
+                <div class="services__container container grid">
+                    <!--==================== UTILIDADE 1 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-wind-sun services__icon"></i>
+                            <h3 class="services__title">Mudanças <br>Climáticas</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">O que são mudanças climáticas?</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <ul class="services__modal-services grid">
+                                    <p>As mudanças climáticas são alterações que ocorrem no clima geral do planeta Terra. 
+                                        Estas alterações são verificadas através de registros científicos nos valores médios 
+                                        ou desvios da média, apurados durante o passar dos anos. Elas são produzidas em 
+                                        diferentes escalas de tempo em um ou vários fatores meteorológicos como, por exemplo: 
+                                        temperaturas máximas e mínimas, índices pluviométricos (chuvas), temperaturas dos 
+                                        oceanos, nebulosidade, umidade relativa do ar, etc. Fenômenos naturais ou por ações
+                                         dos seres humanos são as principais causas dessas alterações.</p>
+                                    
+                                         <div class="img__cards">
+                                            <img src="assets/img/Cards/img_mud_clim.jpg">
+                                        </div>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <!--==================== UTILIDADE 2 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-temperature-plus services__icon"></i>
+                            <h3 class="services__title">Aquecimento<br>Global</h3>
+                        </div>
+                        
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">O Aquecimento<br>Global</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <p>
+                                    O aquecimento global é uma consequência das alterações climáticas
+                                    ocorridas no planeta. O século XX foi o mais quente dos últimos
+                                    cinco, com aumento de temperatura média entre 0,3°C e 0,6°C. 
+                                    Esse aumento pode parecer insignificante, mas é suficiente 
+                                    para modificar todo clima de uma região e afetar profundamente 
+                                    a biodiversidade, desencadeando vários desastres ambientais.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div>
+                        <!--==================== UTILIDADE 3 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-tornado services__icon"></i>
+                            <h3 class="services__title">Emissores<br>de Metano</h3>
+                        </div>
+                        
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Emissores<br>de Metano</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <p>
+                                    Veja a lista dos maiores emissores de metano do planeta:
+                                </p>
+                                <br>
+                                <div class="img__cards">
+                                    <img src="assets/img/Cards/metano.png">
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                    <!--==================== UTILIDADE 4 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-cloud services__icon"></i>
+                            <h3 class="services__title">O Efeito <br>Estufa</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">O Efeito Estufa</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <p class="modal__scroll-oz">
+                                    Efeito Estufa é um mecanismo natural do planeta
+                                     Terra para possibilitar a manutenção da temperatura
+                                      numa média de 15°C, ideal para o equilíbrio de grande
+                                       parte das formas de vida em nosso planeta. Sem o efeito
+                                        estufa natural, o planeta Terra poderia ficar muito frio,
+                                         inviabilizando a vide de muitos animais e vegetais.
+                                          Curiosidades sobre o Efeito Estufa Atualmente, são
+                                           despejados no ar cerca de 5 bilhões de toneladas de
+                                            dióxido de carbono (um dos principais gases causadores
+                                             do efeito estufa) por ano. Só para termos uma base de
+                                              comparação, há 100 anos atrás eram lançados cerca de
+                                               60 milhões de toneladas deste gás anualmente. Assista
+                                                o vídeo para uma conscientização e reflexão sobre problema
+                                                 vivido pela humanidade.<br><br>
+                                </p>
+                                
+                                <video class="video__cards" controls poster="assets/img/Cards/poster_1.jpg">
+                                    <source src="assets/videos/Efeito_estufa.mp4" type="video/mp4">
+                                    <source src="assets/videos/Efeito_estufa.ogv" type="video/ogv">
+                                    <source src="assets/videos/Efeito_estufa.webm" type="video/webm">
+                                </video>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== UTILIDADE 5 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-desert services__icon"></i>
+                            <h3 class="services__title">Camada <br>de Ozônio</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Buraco na<br>Camada de Ozônio</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <p class="modal__scroll-oz">
+                                    Em 1983, pesquisadores fizeram uma descoberta que gerou muita preocupação:
+                                     havia um buraco na camada de ozônio na área da estratosfera sobre o território
+                                      da Antártica. Este buraco era de grandes proporções, pois tinha cerca de 10 milhões
+                                       de quilômetros quadrados. Na década de 1980 outros buracos de menor proporção foram
+                                        encontrados em vários pontos da estratosfera. Com o passar do tempo, estes buracos
+                                         foram crescendo (principalmente o que fica sobre a Antártica), sendo que em setembro
+                                          de 1992 chegou a totalizar 24,9 milhões de quilômetros quadrados.<br><br>
+                                </p>
+
+                                <video class="video__cards" controls poster="assets/img/Cards/poster_3.jpg">
+                                    <source src="assets/videos/Camada_de_ Ozonio.mp4" type="video/mp4">
+                                    <source src="assets/videos/Camada_de_ Ozonio.ogv" type="video/ogv">
+                                    <source src="assets/videos/Camada_de_Ozonio.webm" type="video/webm">
+                                </video>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--==================== UTILIDADE 6 ====================-->
+                    <div class="services__content">
+                        <div>
+                            <i class="uil uil-clipboard-notes services__icon"></i>
+                            <h3 class="services__title">Como isso<br>nos afeta?</h3>
+                        </div>
+
+                        <span class="button button--flex button--small button--link services__button">
+                            Veja mais
+                            <i class="uil uil-arrow-right button__icon"></i>
+                        </span>
+
+                        <div class="services__modal">
+                            <div class="services__modal-content">
+                                <h4 class="services__modal-title">Como isso <br>nos afeta?</h4>
+                                <i class="uil uil-times services__modal-close"></i>
+
+                                <p class="modal__scroll">
+                                    É de conhecimento comum que o efeito estufa pode ter causas naturais 
+                                    ou antrópicas e que essa interferência humana desenfreada propicia a 
+                                    desestabilização climática. O problema é a gravidade disso. <br><br>
+
+                                    <strong>Crise agrícola e hídrica:</strong><br><br>
+
+                                    "Mudar emergencialmente as culturas agrícolas de lugar traria um prejuízo enorme, 
+                                    principalmente no Brasil, que exporta commodities, e, para piorar, poderia levar 
+                                    anos para um nível suficiente de produção, colocando a própria sobrevivência humana em risco."<br><br>
+
+                                    Sem contar a crise hídrica, uma vez que reposição dos lençóis freáticos iria 
+                                    diminuir drasticamente, contudo, o nível do oceano aumentaria, o que geraria, 
+                                    por consequência, inundação de áreas costeiras e maior incidência mundial de furacões 
+                                    e tornados. Por fim, dentre outras consequências, pode-se citar o assoreamento, desertificação, 
+                                    erosão do solo, doenças respiratórias.<br><br>
+
+                                    <strong>Conflitos Sociais:</strong><br><br>
+
+                                    "Não é distante pensar que guerras por causa da água irão acontecer, porque elas já 
+                                    aconteceram e ainda acontecem."<br><br>
+
+                                    Além disso, uma pesquisa da IUCN, a União Internacional para a Conservação da Natureza, 
+                                    demonstrou que a questão climática está associada ao crescimento da violência doméstica, 
+                                    agressão sexual e estupro, prostituição forçada, casamento forçado e casamento infantil, 
+                                    bem como outras formas de exploração das mulheres, principalmente em áreas rurais e países subdesenvolvidos.
+                                    <br><br>
+
+                                    <strong>Causas Gerais:</strong><br><br>
+
+                                    Mundialmente, consumo de energia corresponde à maior parcela dos gases de efeito estufa emitidos, seguidos por agropecuária; 
+                                    uso da terra, mudança no uso da terra e silvicultura; processos industriais de produtos químicos, cimento e outros; e resíduos, 
+                                    incluindo aterros e águas residuais, respectivamente. <br><br>
+
+                                    <strong>Turismo e Moda:</strong><br><br>
+
+                                    Em 2015, o setor da moda emitiu 1,2 bilhão de toneladas de CO2, enquanto o turismo é responsável por 8% da emissão mundial de gases 
+                                    de efeito estufa, sendo que 2% equivale à um país como a Alemanha. Ambos os temas foram abordados nas palestras.
+
+                                    Importante lembrar que edifícios e carros são principais emissores em energia e que indústria e transporte são as fontes que mais crescem.
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </section>
+        <!--==================== RODAPÉ ====================-->
+        <footer class="footer">
+            <div class="footer__bg">
+                <div class="footer__container container grid">
+                    <div>
+                        <h1 class="footer__title">CLIMATIC</h1>
+                        <span class="footer__subtitle">Notícias sobre as Mudanças Climáticas</span>
+                    </div>
+
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#about" class="footer__link">Sobre</a>
+                        </li>
+                        <li>
+                            <a href="#portfolio" class="footer__link">Utilidades</a>
+                        </li>
+                        <li>
+                            <a href="contato.html" class="footer__link">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="footer__socials">
+                        <a href="https://twitter.com" target="_blank" class="footer__social">
+                            <i class="uil uil-twitter-alt"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com" target="_blank" class="footer__social">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+
+                        <a href="https://www.youtube.com" target="_blank" class="footer__social">
+                            <i class="uil uil-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <p class="footer__copy">&#169;CLIMATIC. Todos os direitos reservados.</p>
+            </div>
+        </footer>
+
+        <!--==================== SCROLL TOP ====================-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class="uil uil-arrow-up scrollup__icon"></i>
+        </a>
+
+        <!--==================== SWIPER JS ====================-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--==================== MAIN JS ====================-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
